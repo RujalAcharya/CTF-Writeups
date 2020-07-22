@@ -34,6 +34,8 @@ print(count)
 ```
  When I looked at the code, my first instinct was to try running the code.So as a gentleman, I ran the code, which took forever to give output. Later on, I realized that the problem was to optimize the code so that we could get the output quickly. I felt dumb.<br>
  
- When I scanned through the code, I realized that the main reason the code takes forever to run is the value of n in the while loop. So, i modified the code a little bit as <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/pattern.py'>pattern.py</a> so that I could look at the output of the program in the desired range of value of n.
+ When I scanned through the code, I realized that the main reason the code takes forever to run is the value of n in the while loop. So, i modified the code a little bit as <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/pattern.py'>pattern.py</a> so that I could look at the output of the program in the desired range of value of n. Then, I ran the code so that I could get the output for the range 0-100.
+ 
+ <code>[0, 1, 2, 4, 5, 6, 8, 9, 10, 13, 14, 15, 17, 18, 19, 21, 22, 23, 26, 27, 28, 30, 31, 32, 34, 35, 36, 40, 41, 42, 44, 45, 46, 48, 49, 50, 53, 54, 55, 57, 58, 59, 61, 62, 63, 66, 67, 68, 70, 71, 72, 74, 75, 76, 80, 81, 82, 84, 85, 86, 88, 89, 90, 93, 94, 95, 97, 98, 99, 101, 102, 103, 106, 107, 108, 110, 111, 112, 114, 115, 116, 121, 122, 123, 125, 126, 127, 129, 130, 131, 134, 135, 136, 138, 139, 140, 142, 143, 144, 147]</code>
  
  
