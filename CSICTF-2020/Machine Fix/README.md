@@ -1,7 +1,7 @@
 # Machine Fix
 <h3>Description</h3>
  We ran a code on a machine a few years ago. It is still running however we forgot what it was meant for. It completed n=523693181734689806809285195318 iterations of the loop and broke down. We want the answer but cannot wait a few more years. Find the answer after n iterations to get the flag.<br>
- The flag would be of the format csictf{answer_you_get_from_above}.
+ The flag would be of the format <code> csictf{answer_you_get_from_above} </code>.
  
  
  <strong> File Included: </strong> <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/code.py'>code.py</a><hr>
@@ -33,6 +33,7 @@ while(n<=523693181734689806809285195318):
 print(count)
 ```
  <br>
- When I looked at the code, my first instinct was to try running the code.So as a gentleman, I ran the code, which took forever to give output. Later on, I realized that the problem was to optimize the code so that we could get the output quickly. I felt dumb.
+ When I looked at the code, my first instinct was to try running the code.So as a gentleman, I ran the code, which took forever to give output. Later on, I realized that the problem was to optimize the code so that we could get the output quickly. I felt dumb.<br>
+ When I scanned through the code, I realized that the main reason the code takes forever to run is the value of n in the while loop. So, i modified the code a little bit as <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/pattern.py'>pattern.py</a> so that I could look at the output of the program in the desired range of value of n.
  
  
