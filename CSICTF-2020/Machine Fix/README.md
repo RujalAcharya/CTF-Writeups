@@ -38,4 +38,12 @@ print(count)
  
  <code>[0, 1, 2, 4, 5, 6, 8, 9, 10, 13, 14, 15, 17, 18, 19, 21, 22, 23, 26, 27, 28, 30, 31, 32, 34, 35, 36, 40, 41, 42, 44, 45, 46, 48, 49, 50, 53, 54, 55, 57, 58, 59, 61, 62, 63, 66, 67, 68, 70, 71, 72, 74, 75, 76, 80, 81, 82, 84, 85, 86, 88, 89, 90, 93, 94, 95, 97, 98, 99, 101, 102, 103, 106, 107, 108, 110, 111, 112, 114, 115, 116, 121, 122, 123, 125, 126, 127, 129, 130, 131, 134, 135, 136, 138, 139, 140, 142, 143, 144, 147]</code>
  
+ When I looked at the output, it seemed to me that output is in a fixed pattern. After I looked through <a href='https://oeis.org/'>oeis.org</a>, I found that the numbers are in a fixed sequence. Then i wrote a python script <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/script.py'>script.py</a> so that it gives a certain value of n. 
  
+ ```python
+output = lambda n: output(n//3) + n if n > 0 else 0
+print(output(523693181734689806809285195318))
+ ```
+
+I ran the script for n = 523693181734689806809285195318 and wrapped the output in the required format i.e. <code>csictf{output}</code>, which was the required flag.<br>
+<code>csictf{785539772602034710213927792950}</code>
