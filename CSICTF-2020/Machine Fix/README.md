@@ -7,9 +7,10 @@
  <strong> File Included: </strong> <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/code.py'>code.py</a><hr>
  
  <h3>Solution</h3>
- First of all, I had a look at the code included with the challenge which was <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/code.py'>code.py</a>.
+ First of all, I had a look at the code included with the challenge which was <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/code.py'>code.py</a>.<br>
  <code>
-<pre>
+	
+```python
  def convert (n):
     if n == 0:
         return '0'
@@ -31,5 +32,7 @@ while(n<=523693181734689806809285195318):
 	n+=1
 
 print(count)
-</pre>
- </code>
+```
+ </code><br>
+ 
+ 
