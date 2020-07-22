@@ -33,5 +33,6 @@ while(n<=523693181734689806809285195318):
 print(count)
 ```
  <br>
+ When I looked at the code, my first instinct was to try running the code.So as a gentleman, I ran the code, which took forever to give output. Later on, I realized that the problem was to optimize the code so that we could get the output quickly. I felt dumb.
  
  
