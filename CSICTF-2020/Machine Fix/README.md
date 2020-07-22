@@ -8,7 +8,6 @@
  
  <h3>Solution</h3>
  First of all, I had a look at the code included with the challenge which was <a href='https://github.com/TheFakeS1imShady/CTF-Writeups/blob/master/CSICTF-2020/Machine%20Fix/code.py'>code.py</a>.
- <code>
 	
 ```python
  def convert (n):
@@ -33,6 +32,6 @@ while(n<=523693181734689806809285195318):
 
 print(count)
 ```
- </code><br>
+ <br>
  
  
